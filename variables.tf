@@ -44,7 +44,7 @@ variable db_collation {
 
 variable user_name {
   description = "The name of the default user"
-  default     = "root"
+  default     = "default"
 }
 
 variable user_host {
@@ -80,7 +80,7 @@ variable disk_size {
 
 variable disk_type {
   description = "Second generation only. The type of data disk: `PD_SSD` or `PD_HDD`."
-  default     = "PD_SSD"
+  default     = "PD_HDD"
 }
 
 variable pricing_plan {
