@@ -17,12 +17,12 @@ The script will allow you to enter an external network name and CIDR allowed to 
 
 # Terraform Variables
 
-Here is a sample `*tfvars` file for setting up a simple database:
+Here is a sample `*.tfvars` file for setting up a simple database:
 
     instance_name = "webdb"
     region = "us-central1"
     network_name = "Office Network"
     network_cidr = "236.25.0.0/16"
 
-The above creates a MySQL 5.7 (default) instance with the name of "webdb" i the US Central region. The "Office Networl" with the given CIDR will be able to access the database instance with the user name of "default" and a randomly generated password output when the script completes.
+The above creates a MySQL 5.7 (default) instance with the name of "webdb" in the US Central region. The "Office Network" with the given CIDR will be able to access the database instance with the user name of "default" and a randomly generated password output when the script completes.
 
